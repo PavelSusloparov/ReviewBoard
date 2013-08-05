@@ -1,4 +1,4 @@
-How to use ReviewBoard.
+How to install perforce ReviewBoard button on perforce GUI.
 
 Check you current python version on Windows.
 For example: python2.7
