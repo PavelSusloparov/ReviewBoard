@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--perforce-xml-version=1.0-->
+<CustomToolDefList varName="customtooldeflist" >
+ <CustomToolDef>
+  <Definition>
+   <Name>Send for Code Review</Name>
+   <Command>c:\python24\python</Command>
+   <Arguments>-u C:\python24\post-review.py %C --p4-client=$c --p4-port=$p </Arguments>
+  </Definition>
+  <Console>
+   <CloseOnExit>false</CloseOnExit>
+  </Console>
+  <AddToContext>true</AddToContext>
+ </CustomToolDef>
+</CustomToolDefList>

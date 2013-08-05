@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--perforce-xml-version=1.0-->
+<CustomToolDefList varName="customtooldeflist" >
+ <CustomToolDef>
+  <Definition>
+   <Name>Send for Code Review</Name>
+   <Command>c:\python27\python</Command>
+   <Arguments>-u C:\Python27\Lib\rbtools-master\rbtools\postreview.py %C --p4-port=$p --p4-client=$c </Arguments>
+  </Definition>
+  <Console>
+   <CloseOnExit>false</CloseOnExit>
+  </Console>
+  <AddToContext>true</AddToContext>
+ </CustomToolDef>
+</CustomToolDefList>
